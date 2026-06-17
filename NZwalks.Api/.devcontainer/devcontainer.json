@@ -1,0 +1,7 @@
+{
+  "name": "ASP.NET Core + SQL Server",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "sqlserver",
+  "runServices": ["sqlserver"],
+  "remoteUser": "vscode"
+}
