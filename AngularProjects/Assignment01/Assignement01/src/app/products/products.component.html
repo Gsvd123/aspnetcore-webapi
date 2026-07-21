@@ -1,0 +1,19 @@
+<h3>Products List! - {{companyName}}</h3>
+<table border="2">
+    <tr style="color: palevioletred;"> <th>Product Name </th> <th>Quantity</th></tr>
+    <tr *ngFor="let p of productList" style="color:blue">
+        <td>{{p.ProductName}}</td>
+        <td>{{p.Quantity}}</td>
+
+    </tr>
+   
+</table>
+
+ <br>
+   <p style="color: red;">Enter ProductName : <input type="text"  [(ngModel)]="name" >
+   Enter Quantity : <input type="number" [(ngModel)]="quantity"> 
+   <button (click)="addProduct()" style="color: blueviolet;">Add Product</button>
+   </p>
+
+
+  

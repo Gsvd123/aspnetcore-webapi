@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <h2>Demonstration of Built-in Directives and DataBinding</h2>
+   <h3 style="color: green;" *ngIf="product!=null">Recently Added product : {{product.ProductName}}, {{product.Quantity}}</h3>
+ 
+  <hr>
+    <app-products [name]="CompanyName" (childEvent)="product=$event" ></app-products>
+  </body>
+</html>

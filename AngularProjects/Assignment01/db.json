@@ -1,0 +1,28 @@
+{
+    "Products":[
+        {
+            "ProductName":"DellInspiron 3",
+            "Quantity":1
+        },
+         {
+            "ProductName":"Moto G5",
+            "Quantity":3
+        }, {
+            "ProductName":"HP pavillion 15",
+            "Quantity":5
+        }, {
+            "ProductName":"MacBook air2",
+            "Quantity":4
+        }, {
+            "ProductName":"Lenova G4",
+            "Quantity":8
+        }, {
+            "ProductName":"vivo v4",
+            "Quantity":7
+        }, {
+            "ProductName":"Samsung book",
+            "Quantity":6
+        }
+
+    ]
+}
